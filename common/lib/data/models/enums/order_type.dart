@@ -1,0 +1,1 @@
+enum ORDER_TYPE { BUY, SELL }

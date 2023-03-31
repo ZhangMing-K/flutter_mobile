@@ -1,0 +1,93 @@
+String textGqlWithoutStories = '''
+textKey
+value
+parentKey
+createdAt
+orderedCreatedAt
+featuredAt
+textType
+authUserRelation {
+  hideAt
+  mutedAt
+  savedAt
+}
+taggedGiffs{
+  giffKey
+  remoteId
+  url
+}
+taggedFiles {
+  fileKey
+  url
+  fileType
+}
+taggedAssets {
+  assetKey
+  symbol
+  pictureUrl
+}
+reactions(input: {limit:3}){
+  user{
+    userKey
+    firstName
+    lastName
+    profilePictureUrl
+    badgeType
+  }
+}
+authUserReaction{
+  user{
+    userKey
+    firstName
+    lastName
+    badgeType
+  }
+}
+numberOfReactions
+numberOfComments
+authUserInteractedAt
+user{
+  userKey
+  firstName
+  lastName
+  profilePictureUrl
+  verifiedAt
+  verifiedText
+  firstOrderAt
+  authUserFollowInfo {
+    followStatus
+  }
+  badgeType
+}
+order{
+  symbol
+  asset{
+    assetKey
+    symbol
+    name
+    pictureUrl
+  }
+  portfolio{
+    brokerName
+  }
+  averagePrice
+  positionType
+  optionType
+  orderSide
+  strikePrice
+  expirationDate
+  averageBuyPrice
+  averageSellPrice
+  orderGroupUUID
+  optionLegGroupId
+  profitLoss
+  profitLossPercent
+  positionEffect
+  orderStrategy
+  strategyType
+  closedAt
+  openedAt
+  placedAt
+  fullfilledAt
+}
+''';

@@ -1,0 +1,1 @@
+enum RUN_METHOD { OVERALL, BEATS }

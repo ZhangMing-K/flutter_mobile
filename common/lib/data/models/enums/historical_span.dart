@@ -1,0 +1,11 @@
+enum HISTORICAL_SPAN {
+  DAY,
+  WEEK,
+  MONTH,
+  THREE_MONTH,
+  YEAR,
+  TWO_YEAR,
+  FIVE_YEAR,
+  TEN_YEAR,
+  ALL
+}

@@ -1,0 +1,185 @@
+name: iris_mobile
+description: A new Flutter project.
+version: 3.9.206+244
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependency_overrides:
+  modal_bottom_sheet: ^2.0.1
+  scrollable_positioned_list: ^0.3.2
+  
+
+dependencies:
+  intl: ^0.17.0
+  flutter:
+    sdk: flutter
+  iris_common:
+    path: ../iris_common
+  flutter_feather_icons: ^2.0.0
+  flutter_libphonenumber: ^1.0.4
+  pinput: ^2.2.10
+  permission_handler: ^9.2.0
+  share_plus: ^4.0.4
+  firebase_core: ^1.10.5
+  cupertino_icons: ^1.0.2
+  contacts_service: ^0.6.0
+  flutter_app_badger: ^1.2.0
+  flutter_native_splash: ^2.1.6
+  animations: ^2.0.3
+  auto_size_text: ^3.0.0-nullsafety.0
+  auto_size_text_field: ^2.0.0
+  enum_to_string: ^2.0.1
+  flutter_screenutil: ^5.5.2
+  form_field_validator: ^1.0.1
+  get: ^4.6.3
+  carousel_slider: ^4.0.0
+  cryptography_flutter: ^2.0.2
+  simple_moment: ^1.0.4
+  shimmer: ^2.0.0-nullsafety.0
+  flutter_linkify: ^5.0.0
+  firebase_analytics: ^9.1.2
+  form_builder_validators: ^8.1.1
+  google_fonts: ^3.0.1
+  flutter_reaction_button: ^2.0.0+1
+  flutter_spinkit: ^5.0.0
+  tab_indicator_styler: ^2.0.0-null-safety
+  flutter_form_builder: ^7.0.0
+  extended_text_library: ^9.0.0
+  sms_autofill: ^2.0.1
+  # extended_text: ^8.0.2
+  flutter_inappwebview: ^5.2.1+1
+  # extended_text_field: ^9.0.3
+  video_thumbnail: ^0.5.0
+  webview_flutter: ^3.0.4
+  wakelock: ^0.6.1+2
+  video_player: ^2.2.5
+  html: ^0.15.0
+  flutter_slidable: ^1.1.0
+  vector_math: ^2.0.8
+  #  NOTE: in order to
+  url_launcher: ^6.0.18
+ # syncfusion_flutter_datagrid: ^19.2.60-beta
+  syncfusion_flutter_treemap: ^20.1.55-beta
+  expandable_text: ^2.2.0
+  fl_chart: ^0.50.1
+  screenshot: ^1.2.3
+
+  sticky_headers: ^0.3.0+2
+  cached_network_image: ^3.2.1
+  
+
+  clipboard: ^0.1.2+8
+  # photo viewer
+  photo_view: ^0.14.0
+  # easy rich text editor
+  easy_rich_text: ^1.0.1
+
+  material_design_icons_flutter: ^5.0.5955-rc.1
+
+  posthog_flutter: ^2.0.0
+
+  # extended_nested_scroll_view: ^2.0.0
+  loading_more_list: ^4.0.0
+  # for video player
+  #chewie: ^1.2.2
+
+  # visibility detector
+  visibility_detector: ^0.3.3
+
+  path_provider:
+  path:
+
+  #azlistview
+  azlistview: ^2.0.0-nullsafety.0
+
+  # flutter_feather_icons:
+  unicons: ^2.0.1
+
+  random_string: ^2.2.0-nullsafety
+
+  hive:
+  hive_flutter:
+  flutter_svg: ^1.0.3
+  collection: ^1.15.0-nullsafety.4
+  timeago: ^3.1.0
+  flutter_stripe: ^3.0.0
+
+  table_sticky_headers: ^2.0.0
+  horizontal_data_table: ^3.6.3
+  linked_scroll_controller: ^0.2.0
+  connectivity_plus: ^2.0.3
+  flutter_localizations:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  freezed: ^2.0.3+1
+  json_serializable: ^6.1.0
+  flutter_launcher_icons: ^0.9.0
+  dapackages: ^1.6.0
+  flutter_lints: ^2.0.1
+
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/iris-app-icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - env/
+    - assets/
+    - assets/images/
+    - assets/avatars/
+    - assets/icons/
+    - assets/icons/emojis/
+    - assets/fonts/
+    - assets/emoji/
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: AirbnbCerealApp
+      fonts:
+        - asset: assets/fonts/AirbnbCereal-Black.ttf
+        - asset: assets/fonts/AirbnbCereal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/AirbnbCereal-Book.ttf
+        - asset: assets/fonts/AirbnbCereal-ExtraBold.ttf
+        - asset: assets/fonts/AirbnbCereal-Light.ttf
+          weight: 300
+        - asset: assets/fonts/AirbnbCereal-Medium.ttf
+          weight: 500
+
+
+    - family: IrisIcon
+      fonts:
+        - asset: assets/fonts/IrisIcon.ttf
+    - family: TikTokIcons
+      fonts:
+        - asset: assets/fonts/TikTokIcons.ttf

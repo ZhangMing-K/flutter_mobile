@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>478860069183-t3dmdba5tj18rhf6113tajb4cenkrmru.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.478860069183-t3dmdba5tj18rhf6113tajb4cenkrmru</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>478860069183-dm7ufc81e321q6933n29bhih48osrm90.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDjP3Ecf0128CmP5St09rLhgW7qJaqTUDk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>478860069183</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iris.finance</string>
+	<key>PROJECT_ID</key>
+	<string>iris-prod-280802</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iris-prod-280802.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:478860069183:ios:de4874f1e18a6c383cab8a</string>
+	<key>DATABASE_URL</key>
+	<string>https://iris-prod-280802.firebaseio.com</string>
+</dict>
+</plist>

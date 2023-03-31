@@ -1,0 +1,1 @@
+enum MFA_CONTACT_TYPE { SMS, EMAIL }

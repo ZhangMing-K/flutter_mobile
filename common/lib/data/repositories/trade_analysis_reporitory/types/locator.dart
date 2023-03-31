@@ -1,0 +1,1 @@
+enum LOCATOR { PORTFOLIO, USER }

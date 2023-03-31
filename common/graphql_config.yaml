@@ -1,0 +1,31 @@
+package_name: iris_common
+graphql_endpoint: https://api.dev.iris.finance/graphql/
+input_models_directory_path: lib/data/models/input/
+output_models_directory_path: lib/data/models/output/
+enums_directory_path: lib/data/models/enums/
+
+
+typesToReplace:
+  Text: TextModel
+  Position: PositionModel
+  SearchInput: SearchInputModel
+  File: FileModel
+  Notification: NotificationModel
+
+customFields:
+  Collection:
+    name: isTyping 
+    type: bool
+  Text:
+    name: textCreateId 
+    type: int
+  Asset:
+    name: dayHistorical 
+    type: Historical
+  BrokerConnection:
+    name: dayHistorical 
+    type: Historical
+
+customEnumFields: 
+  RUN_YEAR_DIRECTION:
+    name: NONE

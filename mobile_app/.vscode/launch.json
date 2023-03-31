@@ -1,0 +1,95 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Mobile LOCAL",
+      "type": "dart",
+      "request": "launch",
+      "toolArgs": [
+        "--dart-define",
+        "SUFFIX=.dev",
+        "--dart-define",
+        "APP_NAME=iris.app",
+        "--dart-define",
+        "flavor=local",
+      ],
+      "args": [
+        "--flavor",
+        "local"
+      ]
+    },
+    {
+      "name": "Mobile DEV",
+      "type": "dart",
+      "request": "launch",
+      "toolArgs": [
+        "--dart-define",
+        "SUFFIX=.dev",
+        "--dart-define",
+        "APP_NAME=iris.app",
+        "--dart-define",
+        "flavor=dev",
+      ],
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Mobile PROD",
+      "type": "dart",
+      "request": "launch",
+      "toolArgs": [
+        "--dart-define",
+        "SUFFIX=.prod",
+        "--dart-define",
+        "APP_NAME=iris.app",
+        "--dart-define",
+        "flavor=prod",
+      ],
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    {
+      "name": "Mobile PROD Profile",
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "profile",
+      "toolArgs": [
+        "--dart-define",
+        "SUFFIX=.prod",
+        "--dart-define",
+        "APP_NAME=iris.app",
+        "--dart-define",
+        "flavor=prod",
+      ],
+      "args": [
+        "--flavor",
+        "prod"
+      ],
+    },
+    {
+      "name": "WEB DEV",
+      "type": "dart",
+      "request": "launch",
+      "deviceId": "Chrome",
+      "toolArgs": [
+        "--dart-define",
+        "SUFFIX=.dev",
+        "--dart-define",
+        "APP_NAME=iris.app",
+        "--dart-define",
+        "flavor=dev",
+      ],
+      "args": [
+        "--web-renderer",
+        "html"
+      ],
+    },
+  ]
+}

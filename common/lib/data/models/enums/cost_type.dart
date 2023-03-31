@@ -1,0 +1,1 @@
+enum COST_TYPE { INVITE, POINTS, MONEY }

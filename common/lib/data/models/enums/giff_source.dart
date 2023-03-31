@@ -1,0 +1,1 @@
+enum GIFF_SOURCE { GIPHY }

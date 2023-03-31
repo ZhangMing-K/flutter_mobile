@@ -1,0 +1,144 @@
+class OrderGql {
+  static const order = '''
+  symbol
+  asset{
+    assetKey
+    symbol
+    name
+    pictureUrl
+  }
+  orderKey
+  portfolioAllocation
+  linkedTradesCount
+  dailyAssetTradeStatistics{
+    nbrTrades
+  }
+  averagePrice
+  orderKey
+  averageBuyPrice
+  averageSellPrice
+  positionType
+  optionType
+  orderSide
+  strikePrice
+  expirationDate
+  orderGroupUUID
+  optionLegGroupId
+  profitLoss
+  profitLossPercent
+  positionEffect
+  orderStrategy
+  strategyType
+  closedAt
+  openedAt
+  placedAt
+  fullfilledAt
+  nbrAutoPiloted
+  autoPilotOrder{
+      masterUser{
+        profilePictureUrl
+        userKey
+        firstName
+        lastName
+        badgeType
+      }
+      masterOrder{
+        text{
+          textKey
+        }
+      }
+  }
+  portfolio {
+    brokerName
+    user {
+      userKey
+    }
+    portfolioKey
+  }
+  ''';
+
+  static const orderWithText = OrderGql.order +
+      '''
+text {
+  textKey
+  value
+  parentKey
+  createdAt
+  orderedCreatedAt
+  featuredAt
+  textType
+  numberOfReactions
+  numberOfComments
+  portfolioKey
+  authUserInteractedAt
+  reactions(input: {limit:1}){
+    user{
+      userKey
+      firstName
+      lastName
+      badgeType
+    }
+  }
+  authUserReaction{
+    user{
+      userKey
+      firstName
+      lastName
+      badgeType
+    }
+  }
+  authUserRelation {
+    hideAt
+    userKey
+    entityKey
+    watchedAt
+    savedAt
+    mutedAt
+    blockedAt
+  }
+  taggedGiffs{
+    giffKey
+    remoteId
+    url
+  }
+  taggedFiles {
+    fileKey
+    url
+    fileType
+  }
+  user{
+    userKey
+    firstName
+    lastName
+    username
+    profilePictureUrl
+    badgeType
+    verifiedAt
+    firstOrderAt
+    authUserRelation {
+      hideAt
+      mutedAt
+      savedAt
+    }
+  }
+  comments{
+    textKey
+    value
+    authUserReaction{
+      user{
+        userKey
+        firstName
+        lastName
+        badgeType
+      }
+    }
+    user{
+      firstName
+      lastName
+      profilePictureUrl
+      badgeType
+    }
+  }
+}
+''';
+}

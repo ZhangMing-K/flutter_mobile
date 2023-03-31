@@ -1,0 +1,1 @@
+enum ASSET_TYPE { CRYPTO, STOCK }

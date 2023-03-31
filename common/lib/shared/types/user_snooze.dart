@@ -1,0 +1,1 @@
+// enum USER_SNOOZE_TYPE { TRADE, ALL }

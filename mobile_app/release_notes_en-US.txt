@@ -1,0 +1,2 @@
+This release contains a new sharing feature
+- when sharing a post of some type, you have a new button called 'Share Via' which will convert the post into an image that can be shared to almost any other platform.

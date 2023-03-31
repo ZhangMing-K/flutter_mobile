@@ -1,0 +1,1 @@
+enum OUTLOOK { BULLISH, BEARISH }

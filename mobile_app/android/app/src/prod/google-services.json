@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478860069183",
+    "firebase_url": "https://iris-prod-280802.firebaseio.com",
+    "project_id": "iris-prod-280802",
+    "storage_bucket": "iris-prod-280802.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478860069183:android:1d88ea054b6372e93cab8a",
+        "android_client_info": {
+          "package_name": "com.iris.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478860069183-5fgi9jg37g648j582kqvhvpqcdaed6pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iris.prod",
+            "certificate_hash": "e6e24ebc1f5661c12b1cbd9daff89dc3064fc9ea"
+          }
+        },
+        {
+          "client_id": "478860069183-3p3gudqrmqf2dtj9j0o8fmtl611ebobs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDezdaj_-x3Q2PCwMQUS-fIr-763OGZrM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478860069183-3p3gudqrmqf2dtj9j0o8fmtl611ebobs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "478860069183-t3dmdba5tj18rhf6113tajb4cenkrmru.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iris.finance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

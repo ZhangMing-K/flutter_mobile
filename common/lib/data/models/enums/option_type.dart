@@ -1,0 +1,1 @@
+enum OPTION_TYPE { CALL, PUT }
